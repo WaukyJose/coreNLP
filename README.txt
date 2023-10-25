@@ -11,7 +11,7 @@ Add these two folders shared in Git into the StandfordCoreNLP folder
 output 
 input
 
-In addition, you can add your own files that contain information and save as .txt in the input file.
+The input folder includes 10 .txt examples. In addition, you can add your own files that contain information and save as .txt in the input file.
 
 Instructions:
 
