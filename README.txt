@@ -4,15 +4,23 @@ This project aims to help NLP researchers to automatically organise and  annotat
 
 
 ### Installation
-To install my project, simply clone the repository:
-.../StandfordCoreNLP
+To install my project, simply download:
+https://nlp.stanford.edu/software/stanford-corenlp-4.5.5.zip 
 
-1) First select the names of the texts:
+Add these two folders shared in Git into the StandfordCoreNLP folder
+output 
+input
+
+In addition, you can add your own files that contain information and save as .txt in the input file.
+
+Instructions:
+
+1) First select the files for the analysis with the names of each file text:
 Make sure the correct setwd: #e.g. ('/Users/joselema/desktop/StandfordCoreNLP/')
-Check the folder "input". It includes .txt examples. Here you can add your own texts.  
+Check the folder "input". It includes .txt examples. As mentioned above here you can add your own texts.  
 #create "file.txt" to put the file names that you plan to analyse.
 
-2) Run the following command in "R":
+2) Run the following command in "R Studio":
 # Create the object `filelist`.
 files <- dir('input/')
 filelist <- paste('input/', files, sep = '', collapse = '\n')
